@@ -1,2 +1,2 @@
-# dentista-danki-code
-Site de Dentista da Danki Code
+# Site Dentista
+Template HTML5 para site de consultório odontológico
