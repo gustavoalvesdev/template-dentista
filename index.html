@@ -6,6 +6,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/slick.css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
     <meta name="description" content="" />
@@ -14,6 +15,10 @@
       name="viewport"
       content="width=device-width,initial-scale=1.0,maximum-scale=1.0"
     />
+    <script>
+        document.querySelector('.slick-prev').textContent = "Anterior";
+        document.querySelector('.slick-next').textContent = "Próximo";
+    </script>
   </head>
   <body>
     <header>
@@ -25,19 +30,19 @@
 
         <nav class="menu-desktop">
           <ul>
-            <li><a href="">quem sou</a></li>
-            <li><a href="">depoimentos</a></li>
-            <li><a href="">sobre</a></li>
-            <li><a href="">contato</a></li>
+            <li><a href="#quem-sou">quem sou</a></li>
+            <li><a href="#depoimentos">depoimentos</a></li>
+            <li><a href="#sobre">sobre</a></li>
+            <li><a href="#contato">contato</a></li>
           </ul>
         </nav>
 
         <nav class="menu-mobile">
           <ul>
-            <li><a href="">quem sou</a></li>
-            <li><a href="">depoimentos</a></li>
-            <li><a href="">sobre</a></li>
-            <li><a href="">contato</a></li>
+            <li><a href="#quem-sou">quem sou</a></li>
+            <li><a href="#depoimentos">depoimentos</a></li>
+            <li><a href="#sobre">sobre</a></li>
+            <li><a href="#contato">contato</a></li>
           </ul>
         </nav>
 
@@ -51,49 +56,81 @@
       <div class="container">
         <div class="mosaico-wraper">
           <div class="mosaico-single">
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/1.jpg')"></div>
             <!--img-mosaico-single-->
-            <div class="img-mosaico-single"></div>
-            <!--img-mosaico-single-->
-          </div>
-          <!--mosaico-single-->
-
-          <div class="mosaico-single">
-            <div class="img-mosaico-single"></div>
-            <!--img-mosaico-single-->
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/2.jpg')"></div>
             <!--img-mosaico-single-->
           </div>
           <!--mosaico-single-->
 
           <div class="mosaico-single">
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/3.jpg')"></div>
             <!--img-mosaico-single-->
-            <div class="img-mosaico-single"></div>
-            <!--img-mosaico-single-->
-          </div>
-          <!--mosaico-single-->
-
-          <div class="mosaico-single">
-            <div class="img-mosaico-single"></div>
-            <!--img-mosaico-single-->
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/4.jpg')"></div>
             <!--img-mosaico-single-->
           </div>
           <!--mosaico-single-->
 
           <div class="mosaico-single">
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/5.jpg')"></div>
             <!--img-mosaico-single-->
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/6.jpg')"></div>
             <!--img-mosaico-single-->
           </div>
           <!--mosaico-single-->
 
           <div class="mosaico-single">
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/7.jpg')"></div>
             <!--img-mosaico-single-->
-            <div class="img-mosaico-single"></div>
+            <div class="img-mosaico-single" style="background-image: url('imagens/8.jpg')"></div>
+            <!--img-mosaico-single-->
+          </div>
+          <!--mosaico-single-->
+
+          <div class="mosaico-single">
+            <div class="img-mosaico-single" style="background-image: url('imagens/9.jpg')"></div>
+            <!--img-mosaico-single-->
+            <div class="img-mosaico-single" style="background-image: url('imagens/10.jpg')"></div>
+            <!--img-mosaico-single-->
+          </div>
+          <!--mosaico-single-->
+
+          <div class="mosaico-single">
+            <div class="img-mosaico-single" style="background-image: url('imagens/11.jpg')"></div>
+            <!--img-mosaico-single-->
+            <div class="img-mosaico-single" style="background-image: url('imagens/12.jpg')"></div>
+            <!--img-mosaico-single-->
+          </div>
+          <!--mosaico-single-->
+
+           <div class="mosaico-single">
+            <div class="img-mosaico-single" style="background-image: url('imagens/11.jpg')"></div>
+            <!--img-mosaico-single-->
+            <div class="img-mosaico-single" style="background-image: url('imagens/12.jpg')"></div>
+            <!--img-mosaico-single-->
+          </div>
+          <!--mosaico-single-->
+
+          <div class="mosaico-single">
+            <div class="img-mosaico-single" style="background-image: url('imagens/11.jpg')"></div>
+            <!--img-mosaico-single-->
+            <div class="img-mosaico-single" style="background-image: url('imagens/12.jpg')"></div>
+            <!--img-mosaico-single-->
+          </div>
+          <!--mosaico-single-->
+
+          <div class="mosaico-single">
+            <div class="img-mosaico-single" style="background-image: url('imagens/11.jpg')"></div>
+            <!--img-mosaico-single-->
+            <div class="img-mosaico-single" style="background-image: url('imagens/12.jpg')"></div>
+            <!--img-mosaico-single-->
+          </div>
+          <!--mosaico-single-->
+
+          <div class="mosaico-single">
+            <div class="img-mosaico-single" style="background-image: url('imagens/11.jpg')"></div>
+            <!--img-mosaico-single-->
+            <div class="img-mosaico-single" style="background-image: url('imagens/12.jpg')"></div>
             <!--img-mosaico-single-->
           </div>
           <!--mosaico-single-->
@@ -137,7 +174,7 @@
     </section>
     <!--servicos-->
 
-    <section class="perfil-container">
+    <section class="perfil-container" id="quem-sou">
       <div class="container">
         <div class="perfil-wraper">
           <div class="perfil-wraper2">
@@ -180,29 +217,17 @@
     <section class="videos">
       <div class="container">
         <div class="box-video">
-          <iframe
-            src="https://www.youtube.com/embed/UhuoLV2u3u8"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <iframe src="https://www.youtube.com/embed/KumzpNhzuoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!--box-video-->
 
         <div class="box-video">
-          <iframe
-            src="https://www.youtube.com/embed/UhuoLV2u3u8"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <iframe src="https://www.youtube.com/embed/KumzpNhzuoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!--box-video-->
 
         <div class="box-video">
-          <iframe
-            src="https://www.youtube.com/embed/UhuoLV2u3u8"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <iframe src="https://www.youtube.com/embed/KumzpNhzuoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!--box-video-->
         <div class="clear"></div>
@@ -211,7 +236,7 @@
     </section>
     <!--videos-->
 
-    <section class="tratamentos">
+    <section class="tratamentos" id="sobre">
       <h2>Tratamentos</h2>
       <div class="container">
         <div class="tratamento-container">
@@ -312,15 +337,15 @@
           <!--tratamento-single-->
         </div>
         <!--tratamento-container-->
-        <div class="clear"></div>
+        <!-- <div class="clear"></div> -->
       </div>
       <!--container-->
     </section>
     <!--tratamentos-->
 
-    <section class="depoimentos">
+    <section class="depoimentos" id="depoimentos">
       <h2>Depoimentos</h2>
-      <div class="container">
+      <div class="container" style="max-width: 700px;margin: 0 auto;overflow: hidden;">
         <div class="depoimento-single">
           <quote>
             “Estrutura e atendimento excepcionais! adorei o atendimento da Dra.
@@ -333,6 +358,31 @@
           <!--nome-depoimento-->
         </div>
         <!--depoimento-single-->
+        <div class="depoimento-single">
+          <quote>
+            “Estrutura e atendimento excepcionais! adorei o atendimento da Dra.
+            Fernanda, excelente profissional.”
+          </quote>
+          <div class="nome-depoimento">
+            <img src="imagens/depoimento1.png" />
+            <span>Maria Augusta Santos</span>
+          </div>
+          <!--nome-depoimento-->
+        </div>
+        <!--depoimento-single-->
+        <div class="depoimento-single">
+          <quote>
+            “Estrutura e atendimento excepcionais! adorei o atendimento da Dra.
+            Fernanda, excelente profissional.”
+          </quote>
+          <div class="nome-depoimento">
+            <img src="imagens/depoimento1.png" />
+            <span>Maria Augusta Santos</span>
+          </div>
+          <!--nome-depoimento-->
+        </div>
+        <!--depoimento-single-->
+
       </div>
       <!--container-->
     </section>
@@ -345,34 +395,29 @@
         /></a>
         <p>
           Acesse o Instagram para ver mais fotos<br />
-          @dra.fernanda_slovinski
+          @gs7sistemas
         </p>
       </div>
       <!--instagram-chamada-->
 
       <div class="mosaico-social">
-        <div
-          style="background-image:url('');"
-          class="img-mosaico-single-social"
-        >
-          1
-        </div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post1.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">2</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post2.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">3</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post3.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">4</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post4.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">5</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post5.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">6</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post6.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">7</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post7.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">8</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post8.png')"></div>
         <!--img-mosaico-single-social-->
-        <div class="img-mosaico-single-social">9</div>
+        <div class="img-mosaico-single-social" style="background-image: url('imagens/post9.png')"></div>
         <!--img-mosaico-single-social-->
       </div>
       <!--mosaico-social-->
@@ -382,14 +427,14 @@
         /></a>
         <p>
           Acesse o Instagram para ver mais fotos<br />
-          @dra.fernanda_slovinski
+          @gs7sistemas
         </p>
       </div>
       <!--fb-chamada-->
       <div class="clear"></div>
     </section>
     <!--social-->
-    <section class="contato">
+    <section class="contato" id="contato">
 		<h2>Contato</h2>
 		<form>
 			<div class="form-wrapper w100">
@@ -441,5 +486,12 @@
 		</div>
 		<!-- container -->
 	</footer>
+
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/menu_responsivo.js"></script>
+	<script src="js/menuScroll.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slides.js"></script>
   </body>
 </html>
